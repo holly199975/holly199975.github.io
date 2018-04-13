@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+  $("#button").click(function(){
+    $("#h2").html("<b>Edward Christopher Sheeran, MBE is an English singer, songwriter, guitarist, record producer, and actor.</b>");
+  });
+ 
+});
+</script>
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+    font-size: 70px;
+  }
+ .black-text {
+   color: black;
+   }
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 30px;
+    font-family: Monospace;
+  }
+
+  
+  
+</style>
+
+<h2 class="red-text" id="h2">Ed Sheeran</h2>
+<button id="button">PUSH</button>
+<body  background="http://reso3.yiihuu.com/img_1225564.jpg">
+<p>
+<a href="https://www.facebook.com/EdSheeranMusic/"><img src="https://hypebeast.imgix.net/https%3A%2F%2Fhk.hypebeast.com%2Ffiles%2F2017%2F03%2Fed-sheeran-a-superstar-from-a-nobody-.jpg?auto=compress%2Cformat&fit=max&ixlib=php-1.1.0&q=75&w=800&s=eb7397fee86b3dfa652af836ca4f2df1" alt="Ed Sheeran"></a>
+</p>
+ <p class = "black-text">My Top 3 Ed Sheeran Songs:</p>
+  <ol>
+    <li> <a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g"> Perfect </a> </li>
+    <li> <a href="https://www.youtube.com/watch?v=K0ibBPhiaG0"> Castle on the hill </a></li>
+    <li> <a href="https://www.youtube.com/watch?v=nSDgHBxUbVQ"> Photograph </a></li>
+  </ol>
+
+</body>
+
+</html>
